@@ -1,7 +1,5 @@
 # Martial Arts Encyclopedia
 
-#### Video Demo: <https://youtu.be/eiHIeEZDjMA>
-
 #### Description:
 
 **Martial Arts Encyclopedia** is an educational website designed to introduce users to some of the most popular martial arts around the world. It provides detailed information about each martial art, including its history, basic techniques, and the differences between various styles. The website is intended to be an easy-to-use and engaging reference for martial arts enthusiasts and beginners who want to learn more about these disciplines.
