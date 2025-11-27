@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Martial Arts Styles{% endblock %}
+
+{% block content %}
+<h2 style="text-align: center;">Martial Arts Styles</h2>
+<div class="cards">
+    {% for style in styles %}
+    <div class="card">
+        <img src="{{ url_for('static', filename='images/' + style.image) }}" alt="{{ style.name }}" width="180">
+        <h3>{{ style.name }}</h3>
+        <p>{{ style.origin }}</p>
+        <a href="{{ url_for('style_detail', id=style.id) }}">Learn More</a>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
